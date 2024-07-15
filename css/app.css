@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+}
+
+.cell img {
+  height: 30px;
+}
+
+.modal {
+  display: none;
+  background-color: black;
+  border: 5px solid white;
+  width: 300px;
+  padding: 20px;
+  position: absolute;
+  top: 225px;
+  left: calc(50% - 175px);
+}
+
+.restart-btn {
+  background-color: white;
+  border: none;
+  width: 100px;
+  height: 30px;
+  transition: 0.1s ease-in-out;
+}
+
+.restart-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
